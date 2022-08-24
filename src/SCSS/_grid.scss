@@ -1,0 +1,9 @@
+// Grid Container and Responsiveness
+
+body {
+    --auto-grid-min-size: 16rem;
+    display: grid | inline-grid; // Consider testing block grid later.
+    grid-template-rows: repeat(4, 25% [row-start]);
+    grid-template-columns: repeat(4, 75px [col-start]);
+    grid-gap: 1rem;
+}
