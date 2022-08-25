@@ -1,0 +1,9 @@
+body {
+  --auto-grid-min-size: 16rem;
+  display: inline-grid;
+  grid-template-rows: repeat(4, 25% [row-start]);
+  grid-template-columns: repeat(4, 75px [col-start]);
+  grid-gap: 1rem;
+}
+
+/*# sourceMappingURL=index.css.map */
