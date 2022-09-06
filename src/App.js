@@ -9,7 +9,8 @@ export default function App()
         <div>
             <h1>Jamie Hurd</h1>
             <h2 class="h2">A portfolio.</h2>
-         <nav>
+        <nav>
+            <Link to="/Home"></Link>
             <Link to="/AboutMe"></Link> | {" "}
             <Link to="/GitHub Projects">GitHub Projects</Link>
             <Link to="/Photography">Photopraphy</Link>
