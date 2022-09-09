@@ -1,11 +1,11 @@
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
-import Home from "./pages/Home";
-import Blogs from "./pages/Photography";
-import Contact from "./pages/Github";
-import Influence from "./pages/Influence";
-import About from "./pages/About";
+import Layout from "./Layout";
+import Home from "./Home";
+import Blogs from "./Photography";
+import Contact from "./Github";
+import Influence from "./Influence";
+import About from "./About";
 
 export default function App() {
     return (
