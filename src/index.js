@@ -1,14 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './SCSS/index.css';
-import App from './App';
-import { BrowserRouter } from "react-router-dom";
+import ReactDOM from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import Blogs from "./pages/Photography";
+import Contact from "./pages/Github";
+import Influence from "./pages/Influence";
+import About from "./pages/About";
 
-//Index.js constitutes what jsx folk refer to as 'main.jsx'.
+export default function App() {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Layout />}>
+                    <Route index element={<Home />} />
+                    <Route path="Photography" element={<Photography />} />
+                    <Route path="Github" element={<Github />} />
+                    <Route path="Influence" element={<Influence />} />
+                    <Route path="About" element={<About />} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
+    );
+}
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
-);
+ReactDOM.render(<App />, document.getElementById("root"));

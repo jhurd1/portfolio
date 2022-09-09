@@ -6,17 +6,7 @@ export default function App()
 {
     return
     (
-        <div>
-            <h1>Jamie Hurd</h1>
-            <h2 class="h2">A portfolio.</h2>
-        <nav>
-            <Link to="/Home"></Link>
-            <Link to="/AboutMe"></Link> | {" "}
-            <Link to="/GitHub Projects">GitHub Projects</Link>
-            <Link to="/Photography">Photopraphy</Link>
-            <Link to="/Influence">Influence</Link>
-        </nav>
-        </div>
+    
     );
 }
 
