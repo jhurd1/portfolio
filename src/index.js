@@ -2,10 +2,10 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./Home";
-import Blogs from "./Photography";
-import Contact from "./Github";
 import Influence from "./Influence";
 import About from "./About";
+import Photography from "./Photography";
+import Github from "./Github";
 
 export default function App() {
     return (
