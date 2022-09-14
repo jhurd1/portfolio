@@ -2,6 +2,7 @@
 
 body {
     --auto-grid-min-size: 16rem;
+    background-color:black;
     display: grid; // Consider testing block grid later.
     grid-template-rows: repeat(5, 20% [row-start]);
     grid-template-columns: repeat(4, 75px [col-start]);

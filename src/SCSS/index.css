@@ -1,3 +1,14 @@
+/***_font****/
+li {
+  color: white;
+  font-family: "Poor Richard";
+}
+
+.h1 {
+  color: white;
+  font-family: "Book Antiqua";
+}
+
 #menu-outer {
   height: 84px;
 }
@@ -20,6 +31,7 @@ ul#horizontal-list li {
 
 body {
   --auto-grid-min-size: 16rem;
+  background-color: black;
   display: grid;
   grid-template-rows: repeat(5, 20% [row-start]);
   grid-template-columns: repeat(4, 75px [col-start]);
