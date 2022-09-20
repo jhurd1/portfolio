@@ -10,9 +10,9 @@ function Navbar() {
                     <nav id="menu-outer">
                         
                             <li>
-                                <Link to="/Home"></Link>
+                                <Link to="/Home">Home</Link>
                             </li>
-                                <Link to="/AboutMe"></Link> | {" "}
+                                <Link to="/AboutMe">About Me</Link> | {" "}
                             <li>
                                 <Link to="/GitHub Projects">GitHub Projects</Link>
                             </li>

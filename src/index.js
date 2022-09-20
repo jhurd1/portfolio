@@ -9,7 +9,7 @@ import Github from "./Github";
 
 export default function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/Home" forcerefresh={true} >
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
